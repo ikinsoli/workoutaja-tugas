@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* This was missing */
+}
+
+nav {
+  font-family: 'Mulish', sans-serif;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px; /* This was missing */
+}
+
+nav ul {
+  display: flex;
+  gap: 48px;
+  list-style: none; /* This was missing */
+}
+
+nav ul li a {
+  color: #1F1534;
+  text-decoration: none;
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  transition: all 0.2s ease;
+}
+
+nav ul li a:hover {
+  font-weight: 700;
+  opacity: 1;
+  color: #000000;
+}
+
+.text h1 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 56px;
+  color: #1F1534;
+  margin-bottom: 40px;
+}
+
+.text h1 span {
+  color: #89C5CC;
+  font-weight: 700;
+}
+
+.text p {
+  font-family: 'Open Sans', sans-serif;
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.text button {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 32px;
+  background: #69B99D;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  transition: background-color 0.3s ease;
+}
+
+.text button:hover {
+  background-color: #4A9F83;
+}
+
+footer {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  line-height: 28px;
+  color: #7D7987;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  left: 0px; /* This was 'right: 0px' */
+  z-index: -1; /* This was missing */
+}
+
+#logo {
+  display: block;
+}
