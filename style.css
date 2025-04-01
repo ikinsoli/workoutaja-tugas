@@ -1,8 +1,7 @@
-/* Global Style */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Menambahkan box-sizing border-box */
+  box-sizing: border-box; 
 }
 
 nav {
@@ -11,8 +10,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 55px; /* Jarak bawah navbar */
-  transition: background-color 0.3s ease; /* Menambahkan transisi untuk navbar saat sticky */
+  margin-bottom: 55px;
+  transition: background-color 0.3s ease;
 }
 
 nav.sticky {
@@ -20,15 +19,15 @@ nav.sticky {
   top: 0;
   width: 100%;
   z-index: 1000;
-  background-color: rgba(255, 255, 255, 0.9); /* Menambahkan warna latar belakang transparan saat sticky */
-  box-shadow: 0 4px 2px -2px gray; /* Tambahkan bayangan saat sticky */
+  background-color: rgba(255, 255, 255, 0.9); 
+  box-shadow: 0 4px 2px -2px gray; 
   padding: 10px 20px;
 }
 
 nav ul {
   display: flex;
   gap: 48px;
-  list-style: none; /* Menghapus list style */
+  list-style: none; 
 }
 
 nav ul li a {
@@ -48,14 +47,14 @@ nav ul li a:hover {
 }
 
 .text {
-  display: flex; /* Menggunakan Flexbox */
-  justify-content: space-between; /* Membuat teks dan gambar terpisah */
-  align-items: center; /* Memastikan gambar dan teks sejajar vertikal */
-  gap: 50px; /* Menambahkan jarak antar elemen */
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  gap: 50px; 
 }
 
 .text-content {
-  max-width: 50%; /* Menetapkan lebar maksimum teks agar tidak terlalu lebar */
+  max-width: 50%; 
 }
 
 .text h1 {
@@ -103,8 +102,8 @@ nav ul li a:hover {
 }
 
 .woman-image {
-  max-width: 100%; /* Pastikan gambar tidak melampaui ukuran kontainer */
-  height: auto; /* Memastikan rasio gambar tetap terjaga */
+  max-width: 100%;
+  height: auto;
 }
 
 footer {
@@ -122,15 +121,14 @@ footer a:hover {
 #balls {
   position: fixed;
   bottom: 0px;
-  left: 0px; /* Mengubah 'right' menjadi 'left' */
-  z-index: -1; /* Menambahkan z-index untuk memastikan elemen di belakang konten utama */
+  left: 0px;
+  z-index: -1;
 }
 
 #logo {
   display: block;
 }
 
-/* Animasi Scroll */
 .animate-on-scroll {
   opacity: 0;
   transition: opacity 1s ease-in-out;

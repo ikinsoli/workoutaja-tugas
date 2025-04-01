@@ -1,7 +1,5 @@
-// Mendapatkan elemen navbar
 const navbar = document.querySelector("nav");
 
-// Fungsi untuk menambahkan class sticky saat scroll
 window.onscroll = function() {
   if (window.pageYOffset > navbar.offsetTop) {
     navbar.classList.add("sticky");
@@ -10,7 +8,6 @@ window.onscroll = function() {
   }
 };
 
-// Fungsi untuk mendeteksi elemen yang masuk ke dalam viewport
 function checkScroll() {
   const elements = document.querySelectorAll('.animate-on-scroll');
   
@@ -22,8 +19,6 @@ function checkScroll() {
   });
 }
 
-// Menambahkan event scroll
 window.addEventListener('scroll', checkScroll);
 
-// Panggil fungsi sekali saat halaman pertama kali dimuat
 checkScroll();
