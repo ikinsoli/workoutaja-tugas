@@ -1,27 +1,36 @@
-# Landing Page untuk "Workoutaja"
+# Website Promosi untuk "Workoutaja"
 
-Proyek ini adalah **landing page** untuk platform fitness **"Workoutaja"**, yang dibuat sebagai bagian dari **Exercise 3** dalam mata kuliah **Web Client Development** di **Cakrawala University**.
+Proyek ini merupakan **halaman utama (landing page)** dari platform kebugaran bernama **"Workoutaja"**, dikembangkan sebagai bagian dari **Exercise 3** pada mata kuliah **Web Client Development** di **Universitas Cakrawala**.
 
-Pada proyek ini, saya menerapkan penggunaan **HTML** untuk struktur dan konten halaman, **CSS** untuk desain visual, dan **JavaScript** untuk interaktivitas tambahan. 
+Dalam pengerjaannya, digunakan **HTML** untuk menyusun struktur halaman, **CSS** untuk mendesain tampilan, serta **JavaScript** guna menambahkan elemen interaktif.
 
-## Fitur Utama:
-- **Tata letak responsif** menggunakan Flexbox untuk memastikan tampilan yang baik di perangkat desktop dan mobile.
-- **Navigasi yang responsif** dengan efek sticky navbar yang tetap berada di bagian atas saat pengguna menggulir halaman.
-- **Animasi scroll** untuk elemen-elemen yang muncul secara dinamis saat pengguna menggulir halaman.
-- **Efek interaktif** pada tombol dan elemen lainnya, seperti perubahan warna dan opacity saat hover.
+## Fitur Unggulan:
+- **Desain responsif** dengan Flexbox agar tampilan tetap optimal di berbagai ukuran layar.
+- **Navigasi yang tetap terlihat (sticky navbar)** saat pengguna menggulir halaman ke bawah.
+- **Animasi saat scroll** untuk menampilkan elemen dengan efek yang menarik.
+- **Efek hover** pada tombol dan elemen tertentu untuk meningkatkan pengalaman pengguna.
 
-## Teknologi yang Digunakan:
-- **HTML**: Untuk membangun struktur halaman.
-- **CSS**: Untuk styling dan desain visual.
-  - Menggunakan Flexbox untuk tata letak yang responsif.
-  - Penataan warna dan tipografi yang konsisten.
-- **JavaScript**: Untuk fungsionalitas interaktif, seperti sticky navbar dan animasi saat scroll.
-- **Git**: Untuk versi kontrol dan kolaborasi.
+## Teknologi yang Dipakai:
+- **HTML**: Menyusun konten dan elemen halaman.
+- **CSS**: Memberikan tampilan visual dan konsistensi desain.
+  - Penggunaan Flexbox untuk layout yang fleksibel.
+  - Warna dan font disesuaikan agar nyaman dilihat.
+- **JavaScript**: Menambahkan fitur interaktif seperti sticky menu dan animasi scroll.
+- **Git**: Untuk mengelola versi dan dokumentasi pengembangan.
 
-## Prasyarat:
-Untuk menjalankan proyek ini di lokal, pastikan kamu memiliki browser modern yang dapat menjalankan HTML5, CSS3, dan JavaScript.
+## Kebutuhan Sistem:
+Agar bisa dijalankan secara lokal, pengguna cukup menggunakan browser modern yang mendukung standar **HTML5**, **CSS3**, dan **JavaScript**.
 
 ## Cara Menjalankan:
-1. **Clone repository** ini ke komputer lokal:
+1. **Clone repository** ini ke perangkat lokal:
    ```bash
-   git clone https://github.com/daffarizki190/workoutaja-landing-page.git
+   git clone https://github.com/ikinsoli/workoutaja-tugas.git
+
+## Cara Menjalankan:
+2. Buka folder proyek di Visual Studio Code (VS Code)
+3. Jalankan file `index.html` menggunakan ekstensi **Live Server**
+
+## Kontributor:
+Ikin Solihin  
+Universitas Cakrawala  
+Mata Kuliah Web Client Development - Exercise 3
